@@ -8,7 +8,7 @@
 mkdir ANGELIKA
 mv [WI][2-5]*fasta ANGELIKA
 ```
-3. Compress reads
+3. Compress reads:
 ```bash
 gzip ANGELIKA/*fasta
 ```
@@ -24,7 +24,7 @@ for f in I2 I3 I3 I4 W2; do sbatch $scripts/velvetFasta.sh ANGELIKA $f; done
 ```bash
 mv [WI][2-5] ANGELIKA/
 ```
-7. Copy reads to Teams directory
+7. Copy reads to Teams directory:
 ```bash
 module load ccs/rclone/1.59.2
 rclone copy ANGELIKA farmanlab2:ANGELIKA
