@@ -12,7 +12,7 @@ mv [WI][2-5]*fasta ANGELIKA
 ```bash
 gzip ANGELIKA/*fasta
 ```
-4. Tranfer reads to supercomputer:
+4. Transfer reads to supercomputer:
 ```bash
 scp -r ANGELIKA farman@xxx.uky.edu:
 ```
