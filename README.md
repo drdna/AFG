@@ -1,6 +1,6 @@
 # Genome Assembly
 
-## The following are the procedures used to assemble the foreard and reverse reads in paired-end mode.
+## The following are the procedures used to assemble the forward and reverse reads in paired-end mode.
 
 1. Download reads to laptop:
 2. Place in project directory:
