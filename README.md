@@ -18,7 +18,7 @@ scp -r ANGELIKA farman@xxx.uky.edu:
 ```
 5. Use [velvetFasta.sh](/scripts/velvetFasta.sh) script to assemble reads with velvetoptimiser 2.2.6 running velvet 1.2.10. Note that no quality filtering or adaptor trimming was used because there are no quality scores in .fasta format reads and information on any barcodes used in the project were not provided. 
 ```bash
-for f in I2 I3 I3 I4 I5 W2; do sbatch $scripts/velvetFasta.sh ANGELIKA $f; done
+for f in I2 I3 I4 I5 W2; do sbatch $scripts/velvetFasta.sh ANGELIKA $f; done
 ```
 6. Move assembly directories to ANGELIKA directory:
 ```bash
