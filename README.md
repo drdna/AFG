@@ -2,8 +2,8 @@
 
 ## The following are the procedures used to assemble the forward and reverse reads in paired-end mode.
 
-1. Download reads to laptop:
-2. Place in project directory:
+1. Download reads to laptop from Google Drive.
+2. Place in a project directory:
 ```bash
 mkdir ANGELIKA
 mv [WI][2-5]*fasta ANGELIKA
