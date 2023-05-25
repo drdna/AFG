@@ -14,7 +14,7 @@ gzip ANGELIKA/*fasta
 ```
 4. Tranfer reads to supercomputer:
 ```bash
-scp -r ANGELIKA farman@xxx.uky.edu
+scp -r ANGELIKA farman@xxx.uky.edu:
 ```
 5. Use [velvetFasta.sh](/scripts/velvetFasta.sh) script to assemble reads with velvetoptimiser running velvet version 1.2.10. Note that no quality filtering or adaptor trimming was used because there is no quality information in .fasta format reads and any barcodes used in the project were not proviuded. 
 ```bash
