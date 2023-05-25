@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH --time 48:00:00
-#SBATCH --job-name=trim-velvet
+#SBATCH --job-name=velvetFasta
 #SBATCH --nodes=1
 #SBATCH --ntasks=16
 #SBATCH --partition=normal
